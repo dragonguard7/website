@@ -1,0 +1,22 @@
+<div class="snakeContainer" class="row">
+<div>
+
+  <div>Select board size (5-20): <input ng-model="Game.size" type="number"/></div>
+
+  <div>Select speed (0-100): <input ng-model="Game.speed"/></div>
+  
+  <div>Go through walls?: <input type="checkbox" ng-model="Game.passThrough">{{Game.passThrough}}</div>
+  <button ng-click="startNewGame()"> Start Game </button>
+<!--
+  <h3>current state name: <var>{{$state.current.name}}</var></h3>
+
+  <pre>{{Game}}</pre>
+
+  model
+  <pre>{{Game | json}}</pre>
+  
+  <hr />
+  -->
+ </div>
+
+</div>
