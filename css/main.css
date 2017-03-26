@@ -28,6 +28,14 @@ nav{
 	background-color: #4880f2;
 	color: #ffffff;
 }
+
+.centerBtn{
+	padding-top: 5px;
+	margin: auto;
+	width: 50%;
+	
+}
+
 /* carousel */
 .jk-carousel {
   height: 100%;
