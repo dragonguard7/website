@@ -1,19 +1,19 @@
-/*Nav bar css */
-nav{
-	display: inline;
+/*******************Nav bar css */
+.nav-div{
 	padding: 10px;
 	font-size: 30px;
 	background-color: #dee8fc;
-	border-radius: 5px;
+	border-radius: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
+	width: 80%;
+}
+.nav-div :last-child{
+	float: right;
 }
 
-.port-nav {
-	font-size: 20px;
-	padding: 10px;
-	background-color: #c6c6c6;
-}
+
+
 
 .nav-link{
 	padding: 5px;
@@ -29,6 +29,26 @@ nav{
 	color: #ffffff;
 }
 
+/********************** Portfolio CSS */
+.port-nav {
+	font-size: 20px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #dee8fc;
+	margin-left: 10%;
+	width: 60%;
+}
+.portfolio-container{
+	background-color: #dee8fc;
+   padding: 10px;
+}
+.item{
+	background-color: #4880f2;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+
+}
 .centerBtn{
 	padding-top: 5px;
 	margin: auto;
@@ -36,7 +56,7 @@ nav{
 	
 }
 
-/* carousel */
+/******************** Carousel CSS*/
 .jk-carousel {
   height: 100%;
   overflow: hidden;
@@ -78,18 +98,7 @@ nav{
       .jk-carousel .radio-buttons-container md-radio-button .md-off {
         border-color: #ffffff; }
 
-/*Portfolio css */
-.portfolio-container{
-	background-color: #dee8fc;
-   padding: 10px;
-}
-.item{
-	background-color: #4880f2;
-	display: inline-block;
-	padding: 10px;
-	margin: 10px;
 
-}
 /* Miscellous functions right now */
 
 .background_img {
@@ -180,24 +189,6 @@ nav{
     height: 150px;
 }
 
-/* Add Animation 
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
-
-@-webkit-keyframes zoom {
-    from {-webkit-transform:scale(0)} 
-    to {-webkit-transform:scale(1)}
-}
-
-@keyframes zoom {
-    from {transform:scale(0)} 
-    to {transform:scale(1)}
-}
-*/
 /* The Close Button */
 .close {
     position: absolute;

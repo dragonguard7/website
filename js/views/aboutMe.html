@@ -1,12 +1,11 @@
 
-<h2> About me</h2>
+<h2> {{aboutMe}}</h2>
 </br>
 <div>
-    <input type="text" ng-model="name"/>
-    </br>
-    {{first}}
+    Things I like to do!
     </br> 
-    <ul>
-        <li ng-repeat="cust in customers | filter:name">{{cust.name | uppercase}} - {{cust.city}}</li>
+    <ul ng-repeat="activity in activities">
+        <li>{{activity.name}}</li>
+        <li>{{activity.description}}</li>
     </ul>   
 </div>

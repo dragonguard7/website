@@ -13,9 +13,8 @@ app.config(function($routeProvider) {
 	    controller: 'portfolioController',
         templateUrl : "js/views/portfolio.html"
     })
-	.when('/snake', {
-		controller: 'SnakeController',
-        templateUrl: "js/views/snake.html"       
+	.when('/resume', {
+        templateUrl: "js/views/resume.html"       
     });
 	
 });

@@ -1,10 +1,19 @@
 app.controller('aboutMeController', function($scope){
-   $scope.home = "Home";
+
    $scope.aboutMe = "About Me!";
-   $scope.portfolio = "Portfolio";
-    $scope.customers=[
-        {name:'jerry',city:'chicago'},
-        {name:'tom',city:'houston'},
-        {name:'enslo',city:'taipei'}
+  
+    $scope.activities=[
+        {
+        	name:'Rock climbing',
+        	description:'I love to go climbing, mostly indoors.'
+        },
+        {
+        		name:'Programming',
+        		description:'Programming is awesome!'
+        },
+        {
+        	name:'Learning',
+        	description:'Learning new things everyday is the best.'
+        }
     ];
 });
