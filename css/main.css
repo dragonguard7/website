@@ -1,18 +1,63 @@
+body {
+	background-image: url("img/background.png");
+	
+}
+
+
+.about-container{
+	display: inline-block;
+	width: 80%;
+    min-height: 100px;
+    background: aqua;
+    margin: auto;
+    padding: 10px;
+    clear: both;
+}
+
+.about-image{
+	width: 15%;
+	height: 100%;
+	background-color: #ABCDEF;
+	float: left;
+}
+.about-thumbnail{
+	padding: 10%;
+	height: 50%;
+	width: 75%;
+	max-width: 100px;
+	border-radius: 50%;
+
+	
+}
+.about-text-header{
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.about-text{
+	margin-left: 15%;
+	height: 100%;
+	background-color: #FEDCBA; 
+	vertical-align: top;
+}
+
 /*******************Nav bar css */
 .nav-div{
 	padding: 10px;
+	margin-bottom: 25px;
 	font-size: 30px;
 	background-color: #dee8fc;
 	border-radius: 10px;
 	margin-left: 10%;
 	margin-right: 10%;
 	width: 80%;
+
 }
 .nav-div :last-child{
 	float: right;
+	margin-top: -6px;
 }
-
-
 
 
 .nav-link{

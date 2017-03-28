@@ -2,10 +2,11 @@
 <h2> {{aboutMe}}</h2>
 </br>
 <div>
-    Things I like to do!
+    <h3>Things I like to do!</h3>
     </br> 
-    <ul ng-repeat="activity in activities">
-        <li>{{activity.name}}</li>
-        <li>{{activity.description}}</li>
-    </ul>   
+
+		<test ng-repeat="activity in activities" info="activity"></test>
+	<h3>My personal accomplishments</h3>
+		<test ng-repeat="accomplishment in accomplishments" info="accomplishment"></test>
+
 </div>
