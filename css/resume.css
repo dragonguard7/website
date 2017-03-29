@@ -94,7 +94,7 @@
       p.enlarge span { color: #000 }
       .first h2 { font-style: italic; }
       .last { border-bottom: 0 }
-
+	  .emphasis { font-style: italic; font-weight: bold;}
       /* //-- section styles -- */
       .job, .hobby, .education { position: relative; margin-bottom: 1em; padding-bottom: 1em; border-bottom: 1px solid #ccc; }
       .job ul li, .hobby ul li, .education ul li {list-style: disc; margin-left: 3em; border: none; line-height: 18px}

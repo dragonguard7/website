@@ -5,13 +5,14 @@ app.controller('aboutMeController', function($scope){
     $scope.activities=[
         {
         	name:'Rock climbing',
-        	description:'I love to go climbing, mostly indoors I need to repeat this to check I need to repeat this to check I need to repeat this to check I need to repeat this to check I need to repeat this to check I need to repeat this to check I need to repeat this to check I need to repeat this to check',
-        	imgURL: 'img/hitori.jpg'
+        	description:'I have been rock climbing for the last 5 years. '+
+        	'I primarily go indoor climbing, but I have done outdoor top rope climbing at Rattlesnake Point in Ontario, Canada.',
+        	imgURL: 'img/climbing2.jpg'
         },
         {
         	name:'Programming',
         	description:'Programming is awesome!',
-            imgURL: 'img/mazeRunner.jpg'
+            imgURL: 'img/snake.jpg'
         },
         {
         	name:'Learning',

@@ -3,28 +3,37 @@ app.controller('homeController', function($scope){
 
     $scope.dataArray = [
       {
-        src: 'https://www.travelexcellence.com/images/movil/La_Paz_Waterfall.jpg'
+        src: 'img/cruise.jpg'
       },
       {
-        src: 'http://www.parasholidays.in/blog/wp-content/uploads/2014/05/holiday-tour-packages-for-usa.jpg'
+    	src: 'img/icestorm1.jpg'      
       },
       {
-        src: 'https://upload.wikimedia.org/wikipedia/commons/4/46/Greenland_scenery.jpg'
+    	src: 'img/icestorm2.jpg'     
       },
       {
-        src: 'http://images.kuoni.co.uk/73/indonesia-34834203-1451484722-ImageGalleryLightbox.jpg'
+    	src: 'img/sunset.jpg'      
       },
       {
-        src: 'http://wallpaperlayer.com/img/2015/7/scenery-hd-6377-6652-hd-wallpapers.jpg'
+    	src: 'img/climbing1.jpg'      
       },
       {
-        src: 'http://images.kuoni.co.uk/73/malaysia-21747826-1446726337-ImageGalleryLightbox.jpg'
+    	src: 'img/climbing2.jpg'    
       },
       {
-        src: 'http://www.kimcambodiadriver.com/uploads/images/tours/kim-cambodia-driver-angkor-wat.jpg'
+    	src: 'img/outdoor1.jpg'      
       },
       {
-        src: 'https://www.travcoa.com/sites/default/files/styles/flexslider_full/public/tours/images/imperialvietnam-halong-bay-14214576.jpg?itok=O-q1yr5_'
+        src: 'img/outdoor2.jpg'      
+      },
+      {
+        src: 'img/tobermory1.jpg'      
+      },
+      {
+        src: 'img/tobermory2.jpg'      
+      },
+      {
+    	src: 'img/tremblant.jpg'      
       }
     ];
 });
