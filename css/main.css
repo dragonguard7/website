@@ -1,5 +1,5 @@
 .main-header, .main-footer{
-	background-image: url(../img/background.png);
+	background: #b6bac1;
 	height: 100px;	
 }
 
@@ -20,8 +20,8 @@
 }
 
 .about-image{
-	width: 16%;
-	height: 100%;
+	width: 14vw;
+	height: 14vw;
 	float: left;
 }
 .about-thumbnail{

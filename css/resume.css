@@ -36,15 +36,14 @@
    .resume-header h1 { font-size: 45px; text-transform: uppercase; letter-spacing: 3px; }
    
    .contact-info{
-      float: left;
-      margin-left: 1.99%;
+      float: right;
+      margin-right: 5%;
       width: 28%;
-      margin-top: 7px;
    }
 
    .resume-header div.first {
    	  float: left;
-      width: 70%;
+      width: 60%;
       margin-left: 0;
    }
    
