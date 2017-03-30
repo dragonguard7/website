@@ -1,34 +1,37 @@
-body {
-	background-image: url("img/background.png");
-	
+.main-header, .main-footer{
+	background-image: url(../img/background.png);
+	height: 100px;	
 }
 
 
+.views{
+	margin: auto;
+	margin-bottom: 25px;
+	width: 80%;
+}
+
 .about-container{
 	display: inline-block;
-	width: 80%;
+	width: 100%;
     min-height: 100px;
-    background: aqua;
     margin: auto;
-    padding: 10px;
+    padding: 12px;
     clear: both;
 }
 
 .about-image{
-	width: 15%;
+	width: 16%;
 	height: 100%;
-	background-color: #ABCDEF;
 	float: left;
 }
 .about-thumbnail{
-	padding: 10%;
-	height: 50%;
-	width: 75%;
-	max-width: 100px;
-	border-radius: 50%;
-
-	
+	padding: 5px;
+	height: 90%;
+	width: 90%;
+	border: dashed 1px;	
+	border-radius: 50%;	
 }
+
 .about-text-header{
 	font-size: 20px;
 	font-weight: bold;
@@ -36,21 +39,23 @@ body {
 }
 
 .about-text{
-	margin-left: 15%;
+	border: solid #ABCDEF;
+	border-width: 4px 1px 1px 1px;
+    border-radius: 5px;
+	margin-left: 20%;
+	margin-top: 16px;
+	padding: 15px;
 	height: 100%;
-	background-color: #FEDCBA; 
 	vertical-align: top;
 }
 
 /*******************Nav bar css */
 .nav-div{
 	padding: 7px;
-	margin-bottom: 25px;
+	margin: 25px 10% 25px 10%;
 	font-size: 25px;
 	background-color: #dee8fc;
 	border-radius: 10px;
-	margin-left: 10%;
-	margin-right: 10%;
 	width: 80%;
 
 }
@@ -84,11 +89,11 @@ body {
 	width: 60%;
 }
 .portfolio-container{
-	background-color: #dee8fc;
    padding: 10px;
 }
 .item{
-	background-color: #4880f2;
+	background-color: #ABCDEF;
+	border-radius: 5px;
 	display: inline-block;
 	padding: 10px;
 	margin: 10px;
@@ -201,6 +206,7 @@ body {
 
 /* The Modal (background) */
 .modal {
+	border-radius: 5px;
     display: block; 
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
